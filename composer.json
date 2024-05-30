@@ -1,0 +1,22 @@
+{
+  "name": "opencmf/swoole",
+  "description": "Swoole extend for OpenCMF",
+  "type": "library",
+  "keywords": ["php", "OpenCMF","Swoole"],
+  "license": "MIT",
+  "homepage": "https://opencmf.makun.com",
+  "authors": [
+    {
+      "name": "Makun",
+      "email": "code@makun.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "opencmf\\swoole\\": "src/"
+    },
+    "files": [
+      "src/include.php"
+    ]
+  }
+}
